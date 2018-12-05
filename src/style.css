@@ -1,1 +1,84 @@
 /* Acá va tu código */
+
+body{
+height: 100%;
+width: 100%;
+background-image:  url(https://smartbnb.io/img/encryption.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+height: 100%;
+width: 100%;
+font-family: verdana;
+color:#004673;
+}
+
+#tumensaje, #tumensaje1{
+font-weight: bold;
+}
+
+#desplazado, #desplazado1{
+font-weight: lighter;
+}
+
+button{
+background-color:#0077b0;
+padding: 8px;
+color:#eaeaea;
+border-radius: 7px;
+}
+
+button:hover{
+background-color:#eaeaea;
+color:#004673;
+}
+
+#limpiar{
+background-color:#0077b0;
+padding: 8px;
+color:#eaeaea;
+font-size: 12px;
+border-radius: 7px;
+}
+
+#limpiar:hover{
+background-color:#eaeaea;
+color:#004673;
+}
+
+textarea{
+resize:none ;
+padding: 10px;
+font-family: verdana;
+box-sizing:inherit;
+max-width: 80%;
+min-width: 80%;
+}
+
+#offset{
+font-family: verdana;
+}
+
+#offset{
+padding:8px;
+width:250px;
+min-width: 250px;
+}
+
+#root{
+  background:#80e1e1;
+  font-size: 20px;
+  color: #004673;
+  width: 80%;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+  }
+
+
+.tables{
+background:#80e1e1;
+width: 80%;
+height:450px;
+margin: auto;
+}
+
