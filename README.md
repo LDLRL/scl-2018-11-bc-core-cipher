@@ -1,4 +1,4 @@
-# **CRIPTEXT**
+# **« CRIPTEXT »**
 
 ## DESCRIPCIÓN: herramienta de criptografía que utiliza el método CIFRADO CESAR
 
@@ -88,10 +88,10 @@ link: https://trello.com/b/nQAEYx5g/proyectoindividual1-cifrado
 
 #### 5.2. PROCESO Y DESARROLLO
 Partiendo del esquema prototipo en papel, se ha procedido al desarrollo de la herramienta, basando su diseño en los siguientes aspectos:
-- Ambiente de Oficina. Una herramienta importante dentro del material básico para realizar las labores diarias en el puesto de trabajo inherentes al Área.
-- Colores adecuados que guardan sobriedad, tratando de evitar el tedio que producen colores muy oscuros.
+- Ambiente de Oficina. Una herramienta importante dentro del material básico en el puesto de trabajo para realizar las labores diarias inherentes al Área.
+- Combinación de colores que guardan sobriedad, tratando de evitar el tedio que producen colores muy oscuros. Se pretende evitar la sobrecarga de imágen y colores abundantes.
 - Tipografía sin Serif, para la fácil lectura. (Solamente se usó letra con Serif para resaltar y contrastar el título.)
-- Se incllulyó una caja de texto grande para el ingreso del mensaje, en razón de que el fin del uso es transmitir, en su mayoría, texto de largo o mediano contenido. 
+- Se inclulyó una caja de texto grande para el ingreso del mensaje, en razón de que el fin del uso es transcibir, en su mayoría, texto de largo o mediano contenido. 
 - Se incluyeron dos botones de limpiado de contenido ingresado, para facilitar la comodidad del usuario, tratandose de botones independientes, uno para la sección de Texto y otro para la sección del Número que indicará el desplazado el texto al cifrar.
 - Se incluye el boton de seleccionar y copiar texto en la papelera, en la sección donde se muestra el mensaje cifrado o descfirado, para mayor comodidad del usuario, pudiendo copiar en la ventana para proceder con la operación de cifrar o descifrar, o para copiar el texto en otra herramienta que el usuario prefiera (Ejemplo: Word, Correo electrónico, Messenger, Whatsapp, etc.)
 - Se ha incluido en la página de resultado la información del Número Desplazado, a fin de evitar que por un posible olvido se sufra la pérdida de información que además pudiera ser extensa.
