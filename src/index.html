@@ -1,76 +1,84 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>CRIPTEX</title>
+    <link rel="shortcut icon" href="imagenes/favicon.ico">
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="root" class="root">
-      <h1>  ░  C  ░  R  ░  I  ░  P  ░  T  ░  E  ░  X  ░  </h1>
+        <h1> ░ C ░ R ░ I ░ P ░ T ░ E ░ X ░ T ░ </h1>
     </div>
     <br>
     <br>
     <div class="tables" id="tables">
-    <table  align="center">
-      <br>
-      <center>
-        <div id="botones" class="botones">
-            <div class="enco" id="enco">
-                <br>
-                <br>
-                <p><big><strong>¡ BIENVENIDA/O  a  CRIPTEX !</strong></big><br></p>
-                <br>
-                <br>
-                <br>
-                <p>« Comunícate de manera fácil, rápida y<strong> segura</strong> con tu equipo »</p>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <button id="ingresar" class="ingresar" type="button">INGRESAR</button>
-            </div>
+        <table height="500px" align="center">
             <br>
-            <div id="division1"> 
-              IMPORTANTE: solamente se consideran para cifrado las letras del alfabeto simple (sin Ññ).<br>
-            <br>
-            <form>
-            <p><textarea input="required" autocomplete="off" id="texto" name="comentario" rows="8" cols="110" placeholder="PASO 1: Escribe aquí tu mensaje a cifrar/descifrar"></textarea></p>
-            <br><input class="limpiar" id="limpiar2" type="button" value="LIMPIAR" /><br><br><br>
-            <p>N° Desplazado: <input type="texto" name="position" class="offset" id="offset" placeholder="PASO 2: Ingresa un N°"/>
-              <span id="info" class="info">"N° Desplazado" indica la posición asignada por el usuario para el de cifrado</span>&nbsp;&nbsp;
-              <input class="limpiar" id="limpiar" type="button" value="LIMPIAR" /></p>
-            <br>
-            <p><button type="button" id="cifra">CIFRAR</button>&nbsp;&nbsp;&nbsp;&nbsp;
-            <button type="button" id="descifra">DESCIFRAR</button></p><br>
-            <br>
-              </form>
-   
-            </div >
-            <div id="division2">
-            <div type="text" id="tumensaje1" ></div>
-            <br>
-            <p><textarea name="comentario" rows="8" cols="110" id="mensaje3"> </textarea></p>
-            <p id="desplazado1"></p>
-            <br>
-              <br>
-            <button type="button" id="cifra2">IR A CIFRAR NUEVO MENSAJE</button>
-            <button type="button" id="descifra2">IR A DESCIFRAR NUEVO MENSAJE</button>
-            <br>
-            
-            <button id="copyBlock">Copiar Texto</button> <span id="copyAnswer"></span>
+            <center>
+                <div id="botones" class="botones">
+                    <div class="enco" id="enco">
+                        <br>
+                        <br>
+                        <p><big><strong>¡ BIENVENIDA/O a CRIPTEXT !<br>
+                        TU HERRAMIENTA DE SEGURIDAD</strong></big><br></p>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <p>« Comunícate de manera fácil, rápida y<strong> segura</strong> con tu equipo »</p>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <button id="ingresar" class="ingresar" type="button">INGRESAR</button>
+                    </div>
+                    <br>
+                    <div id="division1">
+                        IMPORTANTE: solamente se consideran para cifrado las letras del alfabeto simple (sin Ññ)<br>
+                        <br>
+                        <form>
+                            <p><textarea input="required" autocomplete="off" id="texto" name="comentario" rows="8" cols="160" placeholder="PASO 1: Escribe aquí tu mensaje a cifrar/descifrar"></textarea></p>
+                            <br><input class="limpiar" id="limpiar2" type="button" value="LIMPIAR" /><br><br><br>
+                            <p>N° Desplazado: <input type="texto" name="position" class="offset" id="offset" placeholder="PASO 2: Ingresa un N°" />
+                                <span id="info" class="info">(el N° es la clave asignada y es requerida en el descifrado) </span>&nbsp;
+                                <input class="limpiar" id="limpiar" type="button" value="LIMPIAR" /></p>
+                            <br>
+                            <p><button type="button" id="cifra">CIFRAR</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <button type="button" id="descifra">DESCIFRAR</button></p><br>
+                            <br>
+                        </form>
 
-            </div>
-        </div>
-      </center>
+                    </div>
+                    <div id="division2">
+                        <div type="text" id="tumensaje1"></div>
+                        <br>
+                        <p><textarea readonly="readonly" name="comentario" rows="8" cols="160" id="mensaje3"> </textarea></p>
+                        <p id="desplazado1"></p>
+                        <br>
+                        <br>
+                        <button type="button" id="cifra2">IR A CIFRAR o DESCIFRAR</button>
+                        <button type="button" id="descifra2">IR A CIFRAR o DESCIFRAR</button>
+                        <br>
 
-    </table>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+                        <button id="copyBlock">Copiar Texto</button> <span id="copyAnswer"></span>
 
-  </div>
+                    </div>
+                </div>
+            </center>
 
-  
-  </body>
+        </table>
+        <script src="cipher.js"></script>
+        <script src="index.js"></script>
+
+    </div>
+
+
+</body>
+
 </html>
