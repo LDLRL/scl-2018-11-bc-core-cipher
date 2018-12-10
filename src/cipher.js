@@ -8,6 +8,7 @@ window.cipher = {
     for (let letra of texto) {
         let valorAscii = letra.charCodeAt();
         if (valorAscii >= 65 && valorAscii <= 90) {
+        } else if (valorAscii  =165){
             let calc = ((valorAscii - 65 + offset) % 26) + 65;
             if (calc < 65) {
                 calc += 26;
@@ -20,10 +21,14 @@ window.cipher = {
             }
             result += String.fromCharCode(calc);
         } else {
+        
             result += letra;
+        
         }
+        
     }
     return result;
+}
 },
 
 
