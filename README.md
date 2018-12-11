@@ -10,7 +10,7 @@ ___
 
 [1.PLANTEAMIENTO DEL PROBLEMA](#1.-PLANTEAMIENTO-DEL-PROBLEMA)
 
-[2.ANÁLISIS DEL PROBLEMA](#2.ANÁLISIS-DEL-PROBLEMA)
+[2.ANÁLISIS DEL PROBLEMA](#2.-ANÁLISIS-DEL-PROBLEMA)
 
 [3.PLANTEAMIENTO DE LA SOLUCIÓN](#3.-PLANTEAMIENTO-DE-LA-SOLUCIÓN)
 
@@ -94,9 +94,11 @@ link: https://trello.com/b/nQAEYx5g/proyectoindividual1-cifrado
 
 #### 5.2. EXPLICACIÓN DEL NOMBRE DE LA HERRAMIENTA
 
-Se ha creado el nombre como resultado de una combinación de dos palabras CRIPTEX (Cryptex en idioma inglés) y TEX (Como las primeras tres palabras de la palabara Texto).
+Se ha creado el nombre como resultado de una combinación de dos palabras CRIPTEX (Cryptex en idioma inglés) y TEX (Como las primeras tres letras de la palabara Texto).
 
 ##### 5.2.1. CRIPTEX
+
+![Criptex](imagenes/c.png)
 
 Un criptex es un artilugio de forma cilíndrica mencionado en la novela "El código Da Vinci" escrita por Dan Brown, para ocultar secretos en su interior. En el interior del criptex se encuentra un papiro, el cual está enrollado alrededor de una probeta con vinagre. Esta probeta se rompe con un mecanismo si el criptex se fuerza o recibe un golpe, como resultado el papiro se estropea, el vinagre literalmente disuelve el papiro, mermando la integridad física del mismo hasta el punto de volverlo una pasta semi-líquida y emborronando por completo cualquier texto que haya estado escrito en él. De este modo, la única forma de abrirlo es conocer previamente la contraseña y manejándolo en todo momento con cautela (debido a que los golpes también rompen la probeta interna con vinagre). El criptex está rodeado de letras o números que giran formando palabras y combinaciones. Cuando se alinean correctamente, se puede acceder al interior del criptex. 
 
