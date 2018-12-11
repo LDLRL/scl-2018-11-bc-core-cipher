@@ -151,7 +151,8 @@ ____________________
 ### 6. AUTORÍA
 
 Lorena De La Riva <br>
-ESTUDIANTE LABORATORIA, Santiago de Chile<br>
+ESTUDIANTE LABORATORIA, 7ma. generación. Santiago de Chile<br>
+Diciembre, 2018<br>
 ![Logo de Laboratoria](imagenes/logo.png)
 
 
