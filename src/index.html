@@ -50,10 +50,11 @@
                         <form>
                             <p><textarea input="required" autocomplete="off" id="texto" name="comentario" rows="8" cols="160" placeholder="PASO 1: Escribe aquí tu mensaje a cifrar/descifrar"></textarea></p>
                             <br><input class="limpiar" id="limpiar2" type="button" value="LIMPIAR" /><br><br><br>
-                            <p>N° Desplazado: <input type="texto" name="position" class="offset" 
+                            <p>Asignar Clave: <input type="texto" name="position" class="offset" 
                                 onkeypress="return event.charCode >= 48 && event.charCode <= 57"
-                                id="offset" placeholder="PASO 2: Ingresa un N°" />
-                                <span id="info" class="info">(el N° es la clave asignada y es requerida en el descifrado) </span>&nbsp;
+                                title="Puedes ingresar el número que desees, éste indicará cuántas posiciones recorre cada letra para su cifrado"
+                                id="offset" placeholder="PASO 2: Ingresa un número" />
+                                <span id="info" class="info">(el Número de Clave es requerida en el descifrado) </span>&nbsp; &nbsp; &nbsp;
                                 <input class="limpiar" id="limpiar" type="button" value="LIMPIAR" /></p>
                             <br>
                             <p><button type="button" id="cifra">CIFRAR</button>&nbsp;&nbsp;&nbsp;&nbsp;

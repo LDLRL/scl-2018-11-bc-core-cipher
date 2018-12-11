@@ -14,15 +14,16 @@ body{
   width: 100%;
   height: 100%;
   font-family:  'K2D', sans-serif;
-  color:#fddd75;	
+  font-size: 17px;
+  color:#f0b03b;
 }
 
 
 
 #info{
-  font-size: 11px;
+  font-size: 13px;
   font-stretch:extra-condensed;
-  color: #ffe799;
+  color: #f0b03b;
   }
 
 #tumensaje, #tumensaje1{
@@ -83,7 +84,7 @@ font-family: 'K2D', sans-serif;
 
 #offset{
   padding:8px;
-  width:180px;
+  width:200px;
   min-width: 180px;
   border-color:#eaeaea;
   border-width:thin;
@@ -91,11 +92,11 @@ font-family: 'K2D', sans-serif;
 }
 
 #root{
-  background-image: repeating-linear-gradient(#00295e,#0265ac);
+  background-image:  repeating-linear-gradient(#011f41,#006b99);
   font-family: serif;
   font-size: 21px;
   font-weight: bold;
-  color: 	#fddd75;
+  color: 	#f0b03b;
   width: 62%;
   height: 50px;
   margin-left: auto;
@@ -107,7 +108,7 @@ font-family: 'K2D', sans-serif;
 
 
 .tables{
-  background-image: repeating-linear-gradient(#00295e,#0265ac);
+  background-image: repeating-linear-gradient(#011f41,#005f88);
   padding: 0%;
   width: 62%;
   height:500px;

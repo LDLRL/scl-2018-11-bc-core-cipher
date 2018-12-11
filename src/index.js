@@ -20,7 +20,7 @@ document.getElementById("cifra").addEventListener("click", ()=> {
     offsetingresado = Number(offsetingresado);  
     document.getElementById("tumensaje1").innerHTML = "TU MENSAJE CIFRADO ES:";
     document.getElementById("mensaje3").innerHTML = `${cipher.encode(textoingresado,offsetingresado)}`;
-    document.getElementById("desplazado1").innerHTML = `<br>N° desplazado: ${offsetingresado}`
+    document.getElementById("desplazado1").innerHTML = `<br>N° Clave: ${offsetingresado}`
     document.getElementById("division1").style.display="none";
     document.getElementById("division2").style.display="block";
     document.getElementById("cifra2").style.display="block";
@@ -64,7 +64,7 @@ document.getElementById("descifra").addEventListener("click",()=>{
 
     document.getElementById("tumensaje1").innerHTML = "TU MENSAJE DESCIFRADO ES:";
     document.getElementById("mensaje3").innerHTML = `${cipher.decode(textoingresado,offsetingresado)}`;
-    document.getElementById("desplazado1").innerHTML = `<br>N° desplazado: ${offsetingresado}`
+    document.getElementById("desplazado1").innerHTML = `<br>N° Clave: ${offsetingresado}`
     document.getElementById("division1").style.display="none";
     document.getElementById("division2").style.display="block";
     document.getElementById("cifra2").style.display="none";
