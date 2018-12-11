@@ -8,25 +8,31 @@
 ___
 ## TABLA DE CONTENIDO
 
-[1. PLANTEAMIENTO DEL PROBLEMA](#1.-PLANTEAMIENTO-DEL-PROBLEMA)
+[1.PLANTEAMIENTO DEL PROBLEMA](#1.-PLANTEAMIENTO-DEL-PROBLEMA)
 
-[2. ANÁLISIS DEL PROBLEMA](#2.ANÁLISIS-DEL-PROBLEMA)
+[2.ANÁLISIS DEL PROBLEMA](#2.ANÁLISIS-DEL-PROBLEMA)
 
-[3. PLANTEAMIENTO DE LA SOLUCIÓN](#3.-PLANTEAMIENTO-DE-LA-SOLUCIÓN)
+[3.PLANTEAMIENTO DE LA SOLUCIÓN](#3.-PLANTEAMIENTO-DE-LA-SOLUCIÓN)
 
-[4. DESCRIPCIÓN DE LA HERRAMIENTA DE CRIPTOGRAFÍA "CRIPTEXT"](#4.-DESCRIPCIÓN-DE-LA-HERRAMIENTA-DE-CRIPTOGRAFÍA-"CRIPTEXT")
+[4.DESCRIPCIÓN DE LA HERRAMIENTA DE CRIPTOGRAFÍA "CRIPTEXT"](#4.-DESCRIPCIÓN-DE-LA-HERRAMIENTA-DE-CRIPTOGRAFÍA-"CRIPTEXT")
 
-[4.1. CRIPTOGRAFÍA](#4.1.-CRIPTOGRAFÍA)
+[4.1.CRIPTOGRAFÍA](#4.1.-CRIPTOGRAFÍA)
 
-[4.2. MÉTODO "CIFRADO CESAR"](#4.2.-MÉTODO-"CIFRADO-CESAR")
+[4.2.MÉTODO "CIFRADO CESAR"](#4.2.-MÉTODO-"CIFRADO-CESAR")
 
-[5. DESCRIPCIÓN DEL DISEÑO](#5.-DESCRIPCIÓN-DEL-DISEÑO)
+[5.DESCRIPCIÓN DEL DISEÑO](#5.-DESCRIPCIÓN-DEL-DISEÑO)
 
-[5.1. PROTOTIPO](#5.1.-PROTOTIPO)
+[5.1.PROTOTIPO](#5.1.-PROTOTIPO)
 
-[5.2. PROCESO Y DESARROLLO](#5.2.-PROCESO-Y-DESARROLLO)
+[5.2.EXPLICACIÓN DEL NOMBRE DE LA HERRAMIENTA](#EXPLICACIÓN-DEL-NOMBRE-DE-LA-HERRAMIENTA)
 
-[5.3. GUÍA RÁPIDA PARA USAR LA HERRAMIENTA](#5.3.-GUÍA-RÁPIDA-PARA-USAR-LA-HERRAMIENTA)
+[5.2.1.CRIPTEX](#CRIPTEX)
+
+[5.2.2.TEXTO](#TEXTO)
+
+[5.3. PROCESO Y DESARROLLO](#5.2.-PROCESO-Y-DESARROLLO)
+
+[5.4. GUÍA RÁPIDA PARA USAR LA HERRAMIENTA](#5.3.-GUÍA-RÁPIDA-PARA-USAR-LA-HERRAMIENTA)
 
 [6. AUTORÍA](#6.-AUTOR)
 
@@ -86,7 +92,20 @@ También se efectuó la planificación de actividades utilizando la herramienta 
 
 link: https://trello.com/b/nQAEYx5g/proyectoindividual1-cifrado
 
-#### 5.2. PROCESO Y DESARROLLO
+#### 5.2. EXPLICACIÓN DEL NOMBRE DE LA HERRAMIENTA
+
+Se ha creado el nombre como resultado de una combinación de dos palabras CRIPTEX (Cryptex en idioma inglés) y TEX (Como las primeras tres palabras de la palabara Texto).
+
+##### 5.2.1. CRIPTEX
+
+Un criptex es un artilugio de forma cilíndrica mencionado en la novela "El código Da Vinci" escrita por Dan Brown, para ocultar secretos en su interior. En el interior del criptex se encuentra un papiro, el cual está enrollado alrededor de una probeta con vinagre. Esta probeta se rompe con un mecanismo si el criptex se fuerza o recibe un golpe, como resultado el papiro se estropea, el vinagre literalmente disuelve el papiro, mermando la integridad física del mismo hasta el punto de volverlo una pasta semi-líquida y emborronando por completo cualquier texto que haya estado escrito en él. De este modo, la única forma de abrirlo es conocer previamente la contraseña y manejándolo en todo momento con cautela (debido a que los golpes también rompen la probeta interna con vinagre). El criptex está rodeado de letras o números que giran formando palabras y combinaciones. Cuando se alinean correctamente, se puede acceder al interior del criptex. 
+
+##### 5.2.2. TEXTO
+
+Conjunto de enunciados que componen un documento escrito.
+
+
+#### 5.3. PROCESO Y DESARROLLO
 Partiendo del esquema prototipo en papel, se ha procedido al desarrollo de la herramienta, basando su diseño en los siguientes aspectos:
 - Ambiente de Oficina. Una herramienta importante dentro del material básico en el puesto de trabajo para realizar las labores diarias inherentes al Área.
 - Combinación de colores que guardan sobriedad, tratando de evitar el tedio que producen colores muy oscuros. Se pretende evitar la sobrecarga de imágen y colores abundantes.
@@ -96,7 +115,7 @@ Partiendo del esquema prototipo en papel, se ha procedido al desarrollo de la he
 - Se incluye el boton de seleccionar y copiar texto en la papelera, en la sección donde se muestra el mensaje cifrado o descfirado, para mayor comodidad del usuario, pudiendo copiar en la ventana para proceder con la operación de cifrar o descifrar, o para copiar el texto en otra herramienta que el usuario prefiera (Ejemplo: Word, Correo electrónico, Messenger, Whatsapp, etc.)
 - Se ha incluido en la página de resultado la información del Número Desplazado, a fin de evitar que por un posible olvido se sufra la pérdida de información que además pudiera ser extensa.
 
-#### 5.3. GUÍA RÁPIDA PARA USAR LA HERRAMIENTA
+#### 5.4. GUÍA RÁPIDA PARA USAR LA HERRAMIENTA
 
 1. Ingresar a la dirección WEB que sea asignada por la empresa.
 
