@@ -7,19 +7,21 @@ window.cipher = {
     let result = "";
     for (let letra of texto) {
         let valorAscii = letra.charCodeAt();
+
         if (valorAscii >= 65 && valorAscii <= 90) {
             let calc = ((valorAscii - 65 + offset) % 26) + 65;
             if (calc < 65) {
                 calc += 26;
             }
             result += String.fromCharCode(calc);
+            
         } else if (valorAscii >= 97 && valorAscii <= 122) {
             let calc = (valorAscii - 97 + offset) % 26 + 97;
             if (calc < 97) {
                 calc += 26;
             }
             result += String.fromCharCode(calc);
-        } else {
+              } else {
             result += letra;
         }
     }

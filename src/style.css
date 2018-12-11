@@ -13,7 +13,7 @@ body{
   size: 100%;
   width: 100%;
   height: 100%;
-  font-family:  'Arimo', sans-serif;;
+  font-family:  'K2D', sans-serif;
   color:#fddd75;	
 }
 
@@ -68,7 +68,7 @@ button:hover{
 textarea{
   resize:none ;
   padding: 10px;
-  font-family: 'Arimo', sans-serif;
+  font-family: 'K2D', sans-serif;
   box-sizing:inherit;
   max-width: 88%;
   min-width: 88%;
@@ -78,7 +78,7 @@ textarea{
 }
 
 #offset{
-font-family: 'Arimo', sans-serif;
+font-family: 'K2D', sans-serif;
 }
 
 #offset{
